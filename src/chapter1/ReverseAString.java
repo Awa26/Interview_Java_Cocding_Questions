@@ -22,7 +22,7 @@ public class ReverseAString {
         String[] names = {"rama", "Awa", "madAm", "RaceCar", "nurses run"};
         String[] reverse = new String[names.length];
 
-        for (int  i = names.length-1, j =0; i>=0; i--,j++){
+        for (int  i = names.length-1, j =0; i>=0; i--,j++){//
            reverse[j] = names[i];
            // System.out.println(i);
         }
@@ -40,7 +40,7 @@ public class ReverseAString {
             String reverseArr = "";
 
             for (int j = arr[i].length()-1; j>=0; j--){
-                reverseArr = reverseArr + arr[i].charAt(j);
+                reverseArr += arr[i].charAt(j);
 
             }
             System.out.println(reverseArr+"\n");
